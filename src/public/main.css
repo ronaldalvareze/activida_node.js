@@ -1,33 +1,53 @@
-body {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-header {
+    padding: auto;
+    margin: auto;
+    background:linear-gradient( rgba(97, 97, 97, 0.8), rgba(73, 73, 73, 0.8)),url(/img/transporte.jpg);
     height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-=======
-    background: pink;
-}
 
-footer {
-    background-color: #f0f0f0;
+
+
+/*footer*/
+
+ .container-footer {
+    background:linear-gradient( rgba(150, 150, 150, 0.8), rgba(46, 46, 46, 0.8)),url(/img/imafooter.jpg);
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    padding: 20px;
+     
 }
 
-.footer {
-    margin-bottom: 10px;
+
+.social-icon:hover {
+    color: darkorange;
 }
->>>>>>> 5ca969b86c34ccca07cdbaa37a7fc54323927bc0
+
+
+strong {
+    color: rgb(131, 112, 5);
+}
+
+
+.social-icons {
+    margin: 0 10px;
+    font-size: 24px; 
+    color: hsl(47, 92%, 33%);
+}
+
+
+a{
+    color: rgb(246, 248, 218);
+
+}
+
+
+a:hover {
+    color: darkorange ;
+}
