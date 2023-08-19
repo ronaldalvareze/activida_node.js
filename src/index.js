@@ -1,13 +1,17 @@
-import express from 'express'
-
-
+import express from "express"
+import {dirname, join} from 'path'
+import { fileURLToPath } from "url"
 
 const app = express()
 
-app.set('view engine' , 'ejs')
+const _dirname = dirname(fileURLToPath(import.meta.url))
+console.log(join(_dirname, '/views'))
+app.set('views', join(_dirname, 'views'))
 
-app.get('/' ,(req, res) => res.send('hey funciona'))
+app.set('view engine', 'ejs')
+
+app.get('/',(req, res) => res.render('index'))
 
 app.listen(3000)
-console.log("hey funciona" ,3000)
+console.log("server online", 3000)
 
