@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,3 +17,17 @@ img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+=======
+    background: pink;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    margin-bottom: 10px;
+}
+>>>>>>> 5ca969b86c34ccca07cdbaa37a7fc54323927bc0
