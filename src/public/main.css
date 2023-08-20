@@ -5,8 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 10rem;
-    background:linear-gradient( rgba(97, 97, 97, 0.8), rgba(73, 73, 73, 0.8)),url(/img/transporte.jpg);
+    padding: 2rem;
+    background:linear-gradient( rgba(97, 97, 97, 0.8), rgba(73, 73, 73, 0.8)),url(/img/inicio.jpg);
     height: 70vh;
     width: 100%;
     background-size: cover;
@@ -58,7 +58,7 @@
 /*footer*/
 
  .container-footer {
-    background:linear-gradient( rgba(150, 150, 150, 0.8), rgba(46, 46, 46, 0.8)),url(/img/imafooter.jpg);
+    background:linear-gradient( rgba(150, 150, 150, 0.8), rgba(46, 46, 46, 0.8)),url(/img/footer.jpg);
     font-size: 20px;
     color: rgb(15, 15, 15);
     background-size: cover;
@@ -67,13 +67,17 @@
      
 }
 
+.container-footer .col h4 {
+    font-size: 30px;
+}
+
 .social-icon:hover {
     color: darkorange;
 }
 
 
 strong {
-    color: rgb(160, 131, 3);
+    color: darkorange;
 }
 
 
